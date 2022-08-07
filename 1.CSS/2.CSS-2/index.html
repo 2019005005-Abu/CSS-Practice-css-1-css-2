@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-2</title>
+    <link rel="stylesheet" href="../2.CSS-2/index.css">
+    <style>
+        
+        body{
+          background-color: aqua;  
+          padding: 10px 20px;
+          background-image: url('../2.CSS-2/img/b.jpg');
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .h_1{
+            background-color: gray;
+            width: 300px;
+            margin: 0 auto;
+            padding: 10px 20px 30px 40px;
+            border: 5px solid red;
+            border-radius: 20px;
+            border-width: 10px;
+            border-style: dotted;
+            width:280px;
+            border-right: 5px;
+            border-left: 5px;
+            border-top: 5px;
+            border-bottom: 5px;
+        }
+
+        .h_2{
+            background-color: blueviolet;
+            width: 300px;
+            margin: 0 auto;
+            text-shadow: 5px 8px black;
+            padding: 10px 20px 30px 40px;
+            border:5px solid  dashed;
+            border-width: 10px;
+            border-style: dotted;
+            width: 280px;
+            border-right: 5px;
+            border-left: 5px;
+            border-top: 5px;
+            border-bottom: 5px;
+        }
+        
+        p{
+            text-transform: capitalize;
+            text-indent: 20px;
+            text-align: justify;
+
+        }
+        h1{
+            border: 5px green solid;
+            text-align: center;
+            width: 250px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        h1,h2,h3,h4{
+            border: 2px red dotted;
+            border-width: 4px;
+            width: 300px;
+            margin: 0 auto;
+            margin-top:20px ;
+        }
+        /*
+        Margin ,Pading,Border Styling
+        */
+         .container .h_5
+            {
+             color:red;
+             font-size: 20px;
+             font-weight: bolder;
+             border: 2px solid black;
+             width: 250px;
+             margin: 10px 20px;
+             padding: 10px 20px;
+             margin-left: 100px;
+            }
+            .para p{
+                text-align: justify;
+                margin: 10px;
+                color:antiquewhite;
+            }
+            .para h1{
+                text-align: center;
+            }
+            .para img{
+                margin-top: 20px;
+                border-radius: 100%;
+            }
+            .d_1,.d_2,.d_3,.d_4{
+             background-color: pink;
+             margin: 10px 20px;
+             padding: 10px 20px;
+             width: 300px;
+             font-weight: bolder;
+             border: 5px solid black;
+            }
+            .container_1 p{
+                border: 2px solid yellow;
+                color:green;
+                background-color: aqua;
+                text-align: center;
+            }
+            .h8{
+                background-color: green;
+            }
+            .h11{
+                background-color: yellowgreen;
+            }
+            h6{
+                background-color: grey;
+                color:white;
+                margin: 10px;
+                padding: 20px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the my Website</h1>
+    <h1>This is my first heading</h1>
+    <h2>This is my second heading</h2>
+    <h3>This is my third heading</h3>
+    <h4>This is my fourth heading</h4>
+    <div id="section_1">
+       <h1 class="h_1" style="text-align:center">Bangladesh</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt qui facere perferendis ipsa modi temporibus ex mollitia, consectetur est sapiente fugit earum voluptatem saepe nulla. Reprehenderit veniam at esse vel corporis saepe quis et, iste, dolores consequatur perspiciatis! Commodi suscipit blanditiis illum molestias sapiente rem ex vitae repudiandae impedit, similique dignissimos, atque rerum nam sint, tenetur harum nulla eligendi. Facere alias sit non deleniti reprehenderit quae autem modi doloribus sint reiciendis nostrum ad eum eligendi fuga neque pariatur eos commodi corrupti quis iure laudantium doloremque, tenetur aut. Magni nisi, quo beatae quia nobis id molestias possimus deleniti neque vero?</p>
+    </div>
+
+    <div id="section_2" style="text-align:center">
+        <h1 class="h_2">India</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ipsum illum illo quae, repellendus possimus velit corrupti, odit dolor nostrum, sunt ex voluptate minima quia? Ab, molestiae nobis! Maxime consequuntur, unde quia officia dolores qui veniam ratione voluptates nisi quam temporibus, atque dolore nemo necessitatibus. Laudantium officiis debitis nam fugit molestiae, incidunt dolorem doloremque culpa pariatur, quae quod! Ipsam animi laudantium nesciunt autem iure consectetur ipsa numquam qui unde, illum possimus voluptatem sit maxime earum esse veritatis dignissimos ad accusamus eum! Hic aspernatur nam fugiat at reprehenderit. Minima hic tenetur, magni dolorem cumque cupiditate architecto sapiente eveniet saepe in aspernatur?</p>
+    </div>
+       <div class="container">
+           <h5 class="h_5">
+             I am a full stack web application Developer  
+           </h5>
+       </div>
+
+       <div class="para">
+         <h1>TEMPERE UNIVERSITY</h1>
+         <img src="../2.CSS-2/img/Rifat.jpg" alt="">
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sed magni nesciunt beatae eius provident nihil, fugit et corporis autem fugiat officia optio facilis nobis! Quisquam eaque beatae dolore veritatis architecto id cumque dolorum nihil doloremque, dignissimos temporibus repudiandae, ea cum est voluptate dolorem ullam consectetur? Sed velit harum quaerat!</p>
+
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia rem culpa dolor minima! Ex, laudantium. Dolore qui libero vitae eos corrupti repudiandae illo veritatis, modi at impedit perspiciatis excepturi voluptate magni iusto asperiores voluptas quo. Id maxime, unde nisi veritatis assumenda dolores commodi doloribus vero alias porro deleniti nobis saepe.</p>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illum nemo itaque asperiores, harum rerum expedita tempore officia, quaerat, aperiam quibusdam in explicabo odio nihil perspiciatis. Quibusdam similique earum esse provident hic. Facere, soluta excepturi? Dolorem deserunt nesciunt saepe, eius pariatur ipsum alias vero blanditiis sit iusto necessitatibus nihil officiis.</p>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odit ipsum cumque voluptatibus neque accusamus commodi dolorem earum veritatis quaerat. Voluptatem ut sed ea nesciunt illo consequuntur amet in! Nulla numquam nam voluptatem, ratione, rerum pariatur quod nesciunt maiores, possimus quibusdam cupiditate? Dolorum vitae in ipsam rem quasi nemo soluta.</p>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere impedit minima praesentium eius, sapiente consequuntur quas sequi excepturi qui odio ipsa iusto optio neque. Sapiente ratione veritatis expedita nisi deserunt temporibus architecto officiis cum maxime illum exercitationem facere eligendi reiciendis, doloremque delectus molestiae possimus nulla provident in laudantium odit laborum.</p>
+
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero expedita cum porro vitae eos, voluptas sed architecto, perspiciatis alias eveniet voluptatem mollitia earum maxime, quos corrupti consequuntur? Error maiores autem asperiores earum iusto doloremque saepe laborum quidem nesciunt quam? Similique quisquam illo et veniam laudantium, cupiditate quaerat quam quis quas!</p>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente harum, repudiandae ex explicabo non eius perspiciatis facere expedita facilis enim ipsum? Hic ipsum officiis quis earum dolore architecto, cupiditate alias, laborum et dicta voluptas mollitia sunt ducimus quas! Architecto minus ex perspiciatis aliquid quos possimus officiis doloremque assumenda fugiat id?</p>
+
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dicta natus a quisquam aspernatur eos laborum exercitationem labore, nemo officiis. Nesciunt recusandae dolor accusamus deleniti eum. Excepturi, reprehenderit repellat atque eligendi rerum architecto qui provident non reiciendis vitae neque necessitatibus nam blanditiis, eveniet sit quas quam perspiciatis debitis. Ullam, temporibus?</p>
+
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque recusandae hic, sequi repudiandae vitae maxime praesentium et dignissimos impedit tempora sapiente voluptates eum quibusdam obcaecati eius laboriosam a officiis maiores illum commodi deserunt quam. In animi culpa amet natus dicta? Eum, iste aspernatur odio deleniti dignissimos beatae aut alias maxime.</p>
+
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam aspernatur rerum molestiae necessitatibus quidem ad a assumenda ipsum adipisci iure ratione consequuntur aperiam nisi dolorum nam asperiores perferendis voluptas, quas enim iste! Eius molestias nobis nihil dolorum earum minus quidem voluptate incidunt, non atque, eaque tenetur, aspernatur quia suscipit cum.</p>
+       </div>
+    <div class="d_1">Bangladesh is a very beautiful country</div>
+    <div class="d_2">Bangladesh is a very beautiful country</div>
+    <div class="d_3">Bangladesh is a very beautiful country</div>
+    <div class="d_4">Bangladesh is a very  beautiful country</div>
+
+    <div class="container_1">
+       <p>I am a living in a very good Place</p>
+    </div>
+    <span class="h11">I am a full stack web application Developer</span>
+   <h6>I am Abu Al Shahriar Rifat</h6>
+   <div class="managingIng">
+    <img src="../2.CSS-2/img/b.jpg" alt="">
+    <img src="../2.CSS-2/img/Rifat.jpg" alt="">
+   </div>
+   <div class="makingGradientStyle"></div>
+   <div class="makingRadialStyle"></div>
+   <div class="boxsizingImage">
+     <p class="p_1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, corporis corrupti. Architecto fuga magni sit suscipit natus repellendus explicabo maiores excepturi! Voluptatibus, deleniti, eligendi qui hic expedita ullam nobis iste ut architecto blanditiis enim beatae tenetur aliquid vel debitis dolorem dolore ipsum? Accusamus non ad tempora mollitia ipsam quia, voluptatem sed similique quibusdam autem ex. Quod fuga vero iste, reprehenderit nam veritatis alias pariatur dignissimos, est laudantium fugit. Illo reiciendis at, nemo praesentium iste, officia quas distinctio, adipisci laudantium eligendi inventore. Nemo, odit. Quibusdam molestias ad dicta voluptatibus animi officia. Sunt vitae laboriosam, soluta blanditiis enim, aliquid animi quasi eligendi assumenda nobis corrupti asperiores nihil voluptatum repellat eveniet tempore impedit. Iure quisquam totam quibusdam similique soluta, suscipit mollitia dolore modi aperiam officia sunt autem maiores, cumque aliquam inventore qui distinctio! Saepe porro consequuntur laborum voluptate eveniet distinctio ea sint quod. Corrupti assumenda, soluta maiores fugiat dicta, eveniet distinctio molestias adipisci architecto quia nisi, perspiciatis nemo tenetur! Earum harum nisi voluptatem explicabo voluptatibus nostrum consectetur voluptate temporibus, at fugit quos laborum ut recusandae delectus perspiciatis alias non facere laboriosam hic iste quaerat molestiae sed quod. Quo laboriosam nemo nobis sint pariatur ipsum sequi ducimus aspernatur, inventore maxime in, odit alias magnam animi quidem? Repellendus odit suscipit libero animi dolore error asperiores modi pariatur facilis nihil enim, assumenda, eius ab est iusto? Doloribus maxime dolorum perferendis sunt in. Labore libero, aut, dignissimos eum laboriosam aliquam esse asperiores vero qui adipisci autem facilis, inventore ducimus quaerat. Deserunt iure praesentium exercitationem nam ea impedit rerum et dolores. Velit ipsa eos placeat omnis beatae quia cumque vitae, eligendi quo. Expedita tenetur recusandae eligendi deleniti blanditiis quod omnis possimus perferendis provident beatae perspiciatis consequuntur, ab vero assumenda, laboriosam praesentium dolore optio quidem obcaecati aspernatur voluptate libero consectetur fugit? Repellat nostrum iste placeat illo corporis impedit aperiam!
+     </p>
+     <p class="p_2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eligendi, rerum quia voluptates consectetur impedit repudiandae officia velit! Atque cupiditate, perferendis nesciunt est eius eum. Quidem, suscipit quibusdam error placeat, sint voluptatum ipsa nulla necessitatibus quo quas deserunt delectus fuga enim minus accusamus id totam? Magni eligendi tenetur amet fugiat accusamus! Nisi fugiat at inventore est sed! Reiciendis, exercitationem. Totam repudiandae iure non dolores tempore velit, laboriosam dolorum, praesentium commodi repellat quae deleniti hic neque cumque debitis explicabo expedita voluptatum earum quas nemo officiis? Provident tempora iste atque incidunt quasi amet accusantium maiores, quisquam eius nulla esse explicabo molestiae doloribus vel quo, repudiandae rem? Alias consectetur voluptatum aliquid nesciunt accusantium? Quo, non, reiciendis tenetur commodi nemo iure officiis unde animi perferendis maiores officia quasi deleniti est, ipsum minus fugit eveniet explicabo sint nobis dolore sunt. Sit exercitationem iste minus ullam quod aut ducimus porro praesentium corrupti! At similique natus necessitatibus eveniet tempore pariatur ut minus inventore eligendi, illum vitae nihil! Aperiam quam vero maiores, temporibus commodi consequuntur eum doloribus accusamus libero autem consequatur officiis eos hic iusto recusandae unde! Voluptatem dignissimos saepe veniam laborum est molestias praesentium, consequuntur reprehenderit consectetur minus, tenetur dolore voluptates assumenda sed doloribus minima corporis ducimus rerum reiciendis! Repellendus eligendi dolore ipsa eaque facere excepturi repudiandae necessitatibus culpa? Quo excepturi reprehenderit animi blanditiis saepe, omnis qui quasi sed illum natus? Harum, eveniet ea id porro sapiente laborum exercitationem in magni laboriosam voluptatibus sit et sint, officia, repellat voluptatum. Ducimus debitis id culpa officiis aspernatur ipsum, optio ut quod nostrum libero dolorem amet sapiente. Deleniti numquam laboriosam accusamus vel, corrupti iusto. Numquam, eos iste nisi molestiae vitae eius adipisci facilis! Tempora odio eos aspernatur dicta fugiat deleniti adipisci consectetur architecto quo repudiandae quod rem temporibus numquam hic, aperiam ratione laborum esse maxime, nemo enim veniam quidem odit.
+     </p>
+   </div>
+   <div class="opacityImage">
+     <img src="../2.CSS-2/img/b.jpg" alt="">
+   </div>
+
+
+     <a href="#">Facebook</a>
+   <div class="overflowProperrt">
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, laudantium! Nemo maiores iusto illo quis blanditiis harum maxime provident ullam, beatae ratione nobis laudantium officiis necessitatibus possimus alias quidem officia? Tenetur quos similique, voluptas perspiciatis explicabo voluptatibus expedita praesentium architecto harum, suscipit, consequatur earum vel possimus ab dolores facilis porro. Rerum error sunt nobis nostrum, accusantium voluptatum ad cum dolor placeat, aliquam magni aut expedita asperiores dicta consequuntur unde. Dicta, blanditiis perspiciatis soluta fugit ipsa a asperiores laborum cum ex nemo excepturi. Nemo corporis consequatur architecto tenetur tempore, quibusdam minima, itaque ducimus recusandae culpa ab aut dolorum, deserunt voluptas. Vel?
+       </p>
+   </div>
+   
+</body>
+</html>

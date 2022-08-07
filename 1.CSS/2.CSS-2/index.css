@@ -1,0 +1,66 @@
+h1{
+    color:red;
+}
+.managingIng img:nth-child(1){
+    max-width:200px ;
+}
+.managingIng img:nth-child(2){
+    width: 200px;
+}
+.makingGradientStyle{
+    height: 100px;
+    width: 200px;
+    background-image: linear-gradient(to right,red,green);
+}
+.makingRadialStyle{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: radial-gradient(circle,blue,yellow);
+}
+.makingGradientStyle:hover{
+    height: 100px;
+    width: 100px;
+    padding: 200px;
+    transition: 2s;
+}
+.boxsizingImage .p_1{
+    background-color: blue;
+    border:2px solid black;
+    color: white;
+    width: 50%;
+    text-indent: 20px;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    float: left;
+}
+.boxsizingImage .p_2{
+    box-sizing: border-box;
+    background-color: brown;
+    border:2px solid black;
+    color: white;
+    width: 50%;
+    text-indent: 20px;
+    padding: 10px 50px;
+    float:left;
+}
+.opacityImage img{
+  width: 200px;
+  height: auto;
+  opacity:0.10;
+  
+}
+.opacityImage img:hover{
+    opacity: 1;
+}
+.overflowProperrt p{
+    height: 200px;
+    width: 200px;
+    background: green;
+    color: gray;
+    border: 2px solid white;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    overflow: auto;
+
+}

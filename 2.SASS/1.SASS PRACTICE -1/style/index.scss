@@ -1,0 +1,63 @@
+/*
+  color-variable declaration
+*/
+$header-bgcolor:#ffab73;
+$width:300px;
+$textAlign:center;
+$mainbgcolor:#ffd384;
+$footerBackround-color:blue;
+$marginTop:10px;
+$paragrapgFrontSize:30px;
+$marginSize:20px;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: $header-bgcolor;
+    width: $width;
+    text-align: $textAlign;
+}
+main{
+    background-color: $mainbgcolor;
+    margin-top: $marginTop;
+}
+#about p{
+    font-size: $paragrapgFrontSize;
+    margin: $marginSize;
+}
+footer{
+    background-color: $footerBackround-color;
+    margin-top: $marginTop;
+}
+
+
+/*
+Nav styling
+*/
+nav ul{
+    margin-top: 15px;
+
+}
+nav{
+    margin-top: 15px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+ display: inline-block;
+ color: white;
+ text-decoration: none;
+ padding: 10px;
+ transition: 0.4s;
+ border-radius: 5px;
+}
+nav ul li a:hover{
+ background-color: black;
+}
+h1{
+    text-align: center;
+}
